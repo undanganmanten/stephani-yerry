@@ -14,7 +14,7 @@
 }
 
 :root {
-  --primary-color: #fff9f4;
+  --primary-color: #fff;
   --secondary-color: #28A5EA;
   --tertiary-color: #16E2C5;
   
@@ -38,7 +38,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     padding: 0px !important;
     /* overflow: hidden; */
-    background-color: #fff9f4;
+    background-color: #fff;
     overflow-x: hidden;
 }
 
@@ -89,6 +89,27 @@ body {
     background-position: center center;
 }
 
+#waktu-lokasi{
+  background: url("../assets/images/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.rekening1{
+  background: url("../assets/images/bg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.rekening2{
+  background: url("../assets/images/bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 /* .background-overlay{
   position: absolute;
   background-color: rgba(17, 17, 17, 0.5);
@@ -133,7 +154,8 @@ body {
 
 
 .main-color{
-  color: #fff9f4;
+  /* color: #fff9f4; */
+  color: #002664;
 }
 
 .navbar-background{
@@ -144,7 +166,7 @@ body {
 
 #home{
     height: 100vh;
-    background: url("../assets/images/gallery/32.jpg");
+    background: url("../assets/images/gallery/33.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -176,10 +198,10 @@ body {
 
 #mempelai{
     height: max-content;
-    /* background: url("../assets/images/5.png");
+    background: url("../assets/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; */
+    background-position: center center;
     padding: 110px 0;
 }
 
@@ -201,7 +223,7 @@ body {
 
 .detail-acara{
   padding-top: 20px;
-  height: 480px;
+  height: max-content;
 }
 
 .tanggal-pernikahan{
@@ -310,13 +332,12 @@ body {
 }
 
 #ucapan{
-    height: max-content;
-    background-color: #dbe7ec;
-    /* background: url("../assets/images/cover-top1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; */
-    /* padding: 100px 0px; */
+  height: max-content;
+  background: url("../assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -50px !important;
 }
 
 .penutup{
