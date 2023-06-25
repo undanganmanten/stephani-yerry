@@ -338,6 +338,7 @@ body {
   background-size: cover;
   background-position: center center;
   margin-top: -50px !important;
+  width: 100%;
 }
 
 .penutup{
